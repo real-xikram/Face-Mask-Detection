@@ -1,0 +1,15 @@
+For improved performance:
+    train you model with larger data.
+    Alter the data augmentation parameters. 
+    Batch normalisation can be done to perform better.
+    Increase the epochs and batch_size during the training 
+    Modify the space of dataset by including all genders, night conditions, various backgrounds ( test background should be included)
+    Retrain the model after such changes.
+    Always load the latest model in the script.
+For testing:
+    Keep the face stable for detection.
+    The face should be well-light for optimum results.
+    Stay at a distance of 70 cm (arms length) in front the camera.
+    Move slightly closer or farther if not detected in 5 seconds.
+    
+
